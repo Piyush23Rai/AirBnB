@@ -1,3 +1,4 @@
+#importing necessary libraries used in the functions
 import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split
@@ -95,6 +96,7 @@ def fill_nan_data(df,categ_transform):
     Parameters:
     -----------
         df : date frame
+        categ_transform : Boolean value if true will transform categorical values into dummies
     
     Returns:
     --------
